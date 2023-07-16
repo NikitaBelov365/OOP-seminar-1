@@ -1,15 +1,18 @@
 class Shapes {
     public static void main(String[] args) {
-        Triangle t1 = new Triangle();
-        Triangle t2 = new Triangle();
+        Triangle t1 = new Triangle(4, 10, "igor");
+        Triangle t2 = new Triangle(3, 25, "anatoliy");
+        TwoShape test = new TwoShape(4.2, 8.9);
+        Triangle t4 = new Triangle(3, 5);
+        TwoShape t5 = new TwoShape();
 
-        t1.height = 4.0;
-        t1.width = 10.1;
+/*         t1.setHeight(4.0);
+        t1.setWidth(10.1);
         t1.style = "igor";
 
-        t2.height = 3.0;
-        t2.width = 25.0;
-        t2.style = "anatoliy";
+        t1.setHeight(3.0);
+        t1.setWidth(25.0);
+        t2.style = "anatoliy"; */
 
         System.out.println("T1 info: ");
         t1.showStyle();
